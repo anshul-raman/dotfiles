@@ -1,8 +1,12 @@
 # dotfiles
 
+## install oh-my-zsh 
+  > optional: install pk10-theme 
+
 ## Create symlinks 
   - ./nvim -> ~/.config/nvim  
   - ./.tmux.conf -> ~/.tmux.conf
+  - ./.zshrc -> ~/.zshrc
 
 
 ### TMUX setup 
