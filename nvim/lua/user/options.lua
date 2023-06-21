@@ -37,7 +37,7 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()" -- Using Treesitter folding
 -- vim.opt.nofoldenable = true
 vim.cmd([[set nofoldenable]])
-vim.opt.foldlevel = 20
+vim.opt.foldlevel = 200
 
 
 

@@ -27,6 +27,16 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
+-- clear search highlights
+keymap("n", "<leader>nh", ":nohl<CR>", opts)
+
+-- delete single character without copying into register
+keymap("n", "x", '"_x', opts)
+
+-- page scroll with auto center
+keymap("n", "<C-d>", "<C-d>zz", opts)
+keymap("n", "<C-u>", "<C-u>zz", opts)
+
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
 keymap("n", "<C-Down>", ":resize -2<CR>", opts)
@@ -45,7 +55,6 @@ keymap("i", "jk", "<ESC>", opts)
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
-
 
 -- For this to work on Mac,
 -- Use iTerm2 and set left option key to Esc+ mode. settings->profiles->keys
