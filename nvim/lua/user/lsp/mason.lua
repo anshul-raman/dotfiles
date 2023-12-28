@@ -3,7 +3,9 @@ local servers = {
 	"pyright",
 	"jsonls",
 	"gopls",
-  "rust_analyzer"
+  "rust_analyzer",
+  "tailwindcss",
+  "tsserver"
 }
 
 local settings = {
